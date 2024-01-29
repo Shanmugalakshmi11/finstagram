@@ -18,6 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Navigationbar /> {/* Use the Navigationbar component */}
+      {/* Other components and content */}
     </div>
   );
 }
