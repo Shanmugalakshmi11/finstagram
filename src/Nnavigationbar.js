@@ -1,17 +1,17 @@
 // Navigationbar.js
 
 import React from 'react';
-import finstergram from '.images/finstergram.png';
 import './App.css'; // Import the styles
+import finstergram from './images/finstergram.png';
+
 
 function Navigationbar() {
   return (
     <nav className="navbar">
-      <a href="index.html"> <img src={finstergram} alt="Home" /> </a>
+      <div id="text-left"><a href="index.html"> <img src={finstergram} alt="Home" /> </a></div>
         <div id="text-right">
-    <a href="login.html">Login</a>
-    <a href="signup.html">Signup</a>
-    
+    <button className="login-button">Login</button>&nbsp;
+    <button className="login-button">Signup</button>
   </div>
     </nav>
   );

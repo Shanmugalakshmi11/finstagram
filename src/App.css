@@ -39,21 +39,47 @@
 /* App.css */
 
 .navbar {
-  background-color: #21a9f8;
-  padding: 5px;
-  color: white;
+  background-color: #67a3f1;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
 }
 
 .navbar a {
   color: white;
-  margin-right: 15px;
   text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
 }
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 .navbar #text-right {
   text-align: right;
 }
+.navbar #text-left {
+  text-align: left;
+}
+.navbar img {
+  height: 20px; /* Adjust the height of the image as needed */
+}
+
 .navbar a img {
   margin-right: 5px;
   height: 20px; /* Adjust the height as needed */
   width: auto;
+}
+
+.login-button {
+  background-color: #0c75ec;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
