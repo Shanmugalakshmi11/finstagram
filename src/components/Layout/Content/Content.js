@@ -21,7 +21,7 @@ function Content() {
             <a href="https://www.instagram.com/">2.693 Followers</a> &nbsp;
             <a href="https://www.instagram.com/">25 Gefolgt</a>
           </div>
-          <div class="grid-item">Item 4</div>
+          <div class="grid-item"></div>
           <div class="grid-item">Item 5</div>
           <div class="grid-item">Item 6</div>
         </div>
