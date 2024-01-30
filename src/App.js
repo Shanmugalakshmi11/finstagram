@@ -1,13 +1,16 @@
-import React from 'react';
-import Navigationbar from './Nnavigationbar';
-import './App.css';
+import "./styles/Variables.css";
+import "./styles/App.css";
+import Navigationbar from "./components/Layout/navbar/Navigationbar";
+import Content from "./components/Layout/Content";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   return (
     <div className="App">
-     
-      <Navigationbar /> {/* Use the Navigationbar component */}
-      {/* Other components and content */}
+      <Navigationbar />
+
+      <Content imageUrl="tech.jpg" />
+      <Footer />
     </div>
   );
 }

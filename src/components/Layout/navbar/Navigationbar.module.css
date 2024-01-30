@@ -1,0 +1,11 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: red;
+}
+
+.mainContainer {
+  background-color: yellow;
+  padding: 16px;
+  width: 100%;
+}
