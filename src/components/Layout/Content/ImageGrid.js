@@ -6,9 +6,9 @@ import imageGrid from "./images/tech.jpg";
 function ImageGrid() {
   console.log(imageGrid);
   return (
-    <div>
+    <div className={["content-container"]}>
       <img
-        class="profil-bild-img"
+        className="profil-bild-img"
         src={imageGrid}
         alt="Tech Image"
         height={200}

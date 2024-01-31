@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navigationbar />
 
-      <Content imageUrl="tech.jpg" />
+      <Content />
       <Footer />
     </div>
   );
