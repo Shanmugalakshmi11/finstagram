@@ -97,21 +97,6 @@
   justify-content: left;
   align-items: left;
 }
-/* Content.module.css */
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 10px;
-  background-color: #2196f3;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
 
 .image-container {
   width: 100%;
