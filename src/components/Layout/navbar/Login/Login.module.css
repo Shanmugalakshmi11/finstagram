@@ -1,6 +1,5 @@
 /* Login.css */
 
-/* Style for the login container */
 .login-container {
   max-width: 400px;
   margin: 0 auto;
@@ -10,10 +9,11 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for form elements */
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center; /* Center-align the content horizontally inside the form */
+  align-items: center; /* Center-align the content vertically inside the form */
 }
 
 label {
@@ -39,5 +39,3 @@ button {
 button:hover {
   background-color: #45a049;
 }
-
-/* Additional styles can be added based on your design requirements */

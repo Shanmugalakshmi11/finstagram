@@ -25,7 +25,7 @@ const Login = ({ onLogin }) => {
           <h2>Login</h2>
           <form>
             <label>
-              Username:
+              Username:&nbsp;
               <input
                 type="text"
                 placeholder="Username"
@@ -34,7 +34,7 @@ const Login = ({ onLogin }) => {
               />
             </label>
             <label>
-              Password:
+              Password:&nbsp;
               <input
                 type="password"
                 placeholder="Password"
@@ -42,6 +42,7 @@ const Login = ({ onLogin }) => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </label>
+
             <button id="text-right" type="button" onClick={handleLogin}>
               Login
             </button>
