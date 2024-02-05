@@ -16,10 +16,19 @@ const Login = ({ onLogin }) => {
     }
   };
 
+  const handleLogout = () => {
+    setLoggedIn(false);
+  };
+
   return (
     <div className="login-container">
       {isLoggedIn ? (
-        <p>Welcome, {username}!</p>
+        <div>
+          <p>Welcome, {username}!</p>
+          <button type="button" onClick={handleLogout}>
+            Logout
+          </button>
+        </div>
       ) : (
         <>
           <h2>Login</h2>
@@ -43,7 +52,7 @@ const Login = ({ onLogin }) => {
               />
             </label>
 
-            <button id="text-right" type="button" onClick={handleLogin}>
+            <button type="button" onClick={handleLogin}>
               Login
             </button>
           </form>
