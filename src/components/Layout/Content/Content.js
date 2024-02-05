@@ -16,8 +16,8 @@ function Content() {
 
         <div className={styles["column"]}>
           <div className={styles["text-container"]}>
-            Techstarter&nbsp;&nbsp;
-            <button className={styles["button"]}>Folgen</button> &nbsp;&nbsp;
+            Techstarter&nbsp;
+            <button className={styles["button"]}>Folgen</button> &nbsp;
             <button className={styles["button"]}>Nachricten Senden</button>
             &nbsp;
             <button className={styles["button"]}>...</button>
